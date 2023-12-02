@@ -17,6 +17,80 @@
 
 	.header__inner {
 		max-width: 768px;
+		padding-top: 30px;
+	}
+}
+
+/*media for Motorola*/
+
+@media screen and (max-width: 720px) {
+	.html {
+		width: 719px;
+	}
+
+	/* HEADER */
+
+	.navbar__content {
+		margin-right: 10px;
+		margin-left: 10px;
+	}
+
+	/* ABOUT */
+
+	.about__content {
+		margin-right: 10px;
+		margin-left: 10px;
+	}
+
+	.about__grid {
+		gap: 10px;
+	}
+
+	/* SERVICES */
+
+	.services__items {
+		padding-right: 10px;
+		padding-left: 10px;
+	}
+
+	.services__items_heading {
+		margin-right: 50px;
+	}
+
+	.services__grid {
+		display: flex;
+		flex-direction: column;
+		margin: 0 auto;
+		padding-bottom: 0;
+	}
+	.services__grid-item {
+		margin-bottom: 30px;
+	}
+
+	.services__grid-item:last-child {
+		margin: 0;
+	}
+
+	/* NEWSLETTER */
+
+	.newsletter__inner {
+		display: flex;
+		justify-content: center;
+	}
+
+	/* FOOTER */
+
+	.footer__flex_company {
+		margin-right: 20px;
+	}
+
+	.footer__flex_links {
+		margin: 0 auto;
+		margin-right: 20px;
+	}
+
+	.footer__flex_contact-us {
+		margin-right: 20px;
 	}
 }
 
